@@ -1,0 +1,36 @@
+{
+  "name": "dsh-sakura-theme",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness（DSH）樱花主题插件：粉樱配色 + 飘落花瓣 + 角落樱花水印。桌面端与 Web 端均生效，DSH 更新不丢失。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "theme",
+    "sakura",
+    "anime"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "theme.css",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiaoxueX/dsh-sakura-theme.git"
+  },
+  "homepage": "https://github.com/MiaoxueX/dsh-sakura-theme#readme",
+  "bugs": {
+    "url": "https://github.com/MiaoxueX/dsh-sakura-theme/issues"
+  },
+  "license": "MIT"
+}

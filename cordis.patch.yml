@@ -1,0 +1,5 @@
+# dsh-sakura-theme —— DSH bundle patch
+# 把樱花主题插件挂进 profile 配置树。
+- insert:
+    - id: dsh-sakura-theme
+      name: dsh-sakura-theme
